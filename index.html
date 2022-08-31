@@ -1,0 +1,29 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Color Scheme Generator</title>
+</head>
+<body>
+    <section>
+        <form action="submit" id="form">
+            <input type="color" name="color" id="color-select">
+            <select id = "color-tones" name="color-tone">
+                <option value="Monochrome-dark">Monochrome-dark</option>
+                <option value="Monochrome-light">Monochrome-light</option>
+                <option value="Analogic">Analogic</option>
+                <option value="Complement">Complement</option>
+                <option value="Analogic-Complement">Analogic-Complement</option>
+                <option value="Triad">Triad</option>
+            </select>
+            <button id="get-colors" type="submit">Get Color Scheme</button>
+        </form>
+        <div class="colors" id="colors"></div>
+    </section>
+    <script src="index.js"></script>    
+</body>
+</html>

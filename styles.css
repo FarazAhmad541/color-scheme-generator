@@ -1,0 +1,80 @@
+body{
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    caret-color: transparent;
+    background-color: beige;
+    width: 800px;
+    margin: 3% auto;
+}
+section{
+    margin: auto;
+    height: 35rem;
+    margin: auto;
+}
+form{
+    margin: auto;
+    background-color: white;
+    padding: 1rem 1.5rem;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.colors{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    align-content: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.color{
+    width: 100%;
+    height: 100%;
+}
+
+.color-text{
+    padding: 2rem;
+    background-color: white;
+}
+.color-text:hover,
+.color-text:focus{
+    background-color: whitesmoke;
+}
+#color-select{
+    width: 4rem;
+    height: 3rem;
+    cursor: pointer;
+    margin: 0;
+    border: none;
+}
+#color-tones{
+    font-family: 'Inter';
+    font-size: 1rem;
+    font-weight: 500;
+    height: 2.5rem;
+    width: 65%;
+    border-radius: 5px;
+}
+
+/*Button Style*/
+#get-colors{
+    cursor: pointer;
+    padding: 0.7rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: 'inter';
+    font-size: 1rem;
+    font-weight: 500;
+}
